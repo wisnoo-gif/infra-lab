@@ -4,6 +4,9 @@
 
 사용방법
 ```bash
+sudo dnf install -y git #설치
+git --version #설치확인
 git clone https://github.com/wisnoo-gif/infra-lab.git
-cd infra-lab
-
+cd infra-lab #infra-lab으로 이동
+chmod +x install_docker.sh #스크립트에 실행권한주기 
+./install_docker.sh #도커스크립트 설치
