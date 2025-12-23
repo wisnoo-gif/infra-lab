@@ -9,18 +9,16 @@ docker images
    
 4) 다운로드한 이미지를 실행 (instance를 만든다.)
 ```
-docker run -d -p 8080:8080 --name tc tomcat```
+docker run -d -p 8080:8080 --name tc tomcat
+```
 
-          (1) docker : 도커 명령어 사용
-          (2) run : 이미지를 (처음) 실행
-          (3) -d   : 백그라운드로 실행  ( -it : 터미널 )
-          (5) -p 8080:8080 => 외부/도커 포트 연결
-          (6) --name tc : 별칭(별명)을 tc로 한다
-          (7) tomcat : 이미지 이름
-
+```
 docker ps
+
 curl localhost:8080
-docker stop tc    
+
+docker stop tc
+ 
 docker start tc
 ```
 
