@@ -20,4 +20,4 @@ SSH
 - [SSH](SSH_Setup.md)
 
 Firewall
--[Firewall](Firewall_Setup.md)
+- [Firewall](Firewall_Setup.md)
