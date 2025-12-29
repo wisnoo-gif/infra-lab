@@ -1,4 +1,4 @@
-# My-stduy
+# My-study
 
 
 `install_docker.sh` : Rocky Linux 환경에서 Docker 엔진 자동 설치 및 실행(초기 세팅용)
